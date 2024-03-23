@@ -1,0 +1,397 @@
+
+
+
+.main-outer{
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    background-color: #8380af;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+   
+}
+
+.container{
+    font-size: 2rem;
+}
+
+/* .sider{
+    background-color: #e01818;
+    
+} */
+
+.content{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    margin-top: 62px;
+    /* background-color: #e0e0f0; */
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    
+    
+/*    
+    background-image: url('../assets/3.jpg.png');
+    background-size: cover;
+    background-position: center; */
+   
+    
+    
+}
+
+.menu{
+    position: fixed;
+    padding-top: 80px;
+    height: 100vh;
+    width: 200px;
+    
+}
+.brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(219, 217, 226);
+}
+
+.search{
+    width: 250px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
+
+}
+    
+
+.maintitle{
+    align-items: center;
+    color: rgb(169, 186, 212);
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    -webkit-text-stroke-color: #372c69;
+    -webkit-text-stroke-width: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttonnew{
+    border: none;
+    background-color:  rgb(202, 191, 233);
+    justify-content: center;
+    align-items: center;
+    color: blue;
+
+}
+.button00{
+    color: red;
+}
+.card2{
+    width: 220px; 
+    height: 250px;
+    background-color: rgb(202, 191, 233);
+    box-shadow: gray 1px 1px 8px;
+    border: none;
+}
+.card3{
+    width: 220px; 
+    height: 250px;
+    background-color: rgb(202, 191, 233);
+    box-shadow: gray 1px 1px 8px;
+    border: none;
+}
+
+.cards{
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    gap: 50px; 
+    /* border: #e01818 1px; */
+   
+}
+
+
+
+
+.containerpro{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+}
+.headerpro{
+    background-color: #8380af;
+}
+
+.brandpro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(219, 217, 226);
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+.dashcard{
+    font-family: 'Times New Roman', Times, serif;
+    color: #574b63;
+    font-size: 3rem;
+    box-shadow: #000000 1px 1px 1p;
+    font-weight: bold;
+    background-color: rgb(231, 240, 248);
+    box-shadow: gray 1px 1px 8px;
+    border: none;
+    
+}
+
+.dashdiv{
+    margin: 20px;
+
+}
+
+.dashcard-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.profcard-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.profdiv{
+    margin: 20px;
+}
+.profcard{
+    font-family: 'Times New Roman', Times, serif;
+    color: #574b63;
+    font-size: 3rem;
+    box-shadow: #000000 1px 1px 1p;
+    font-weight: bold;
+    background-color: rgb(231, 240, 248);
+    border: none;  
+    box-shadow: gray 1px 1px 8px;
+}
+.officerpic{
+    width: 245px;
+    height: 245px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #e9e5f3;
+    box-shadow: gray 1px 1px 8px;
+    border: none;
+}
+.officerdtls{
+    width: 800px;
+    height: 390px;
+    margin: 30px 30px 30px 0px;
+    background-color: #e9e5f3;
+    border-radius: 25px;
+    box-shadow: gray 1px 1px 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.officerimgdtls{
+    display: flex;
+    gap: 20px;
+   
+}
+.officeridimg{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 250px;
+   height: 250px;
+   
+}
+.dtilsoff{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+.nmID{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yrgen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rankdev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.srvceadd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.styl3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+    gap: 50px;
+    
+}
+.bold{
+    font-weight: bold;
+}
+
+.prefinecard-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.prefinediv{
+    margin: 20px;
+}
+.prefinecard{
+    font-family: 'Times New Roman', Times, serif;
+    color: #574b63;
+    font-size: 3rem;
+    box-shadow: #000000 1px 1px 1p;
+    font-weight: bold;
+    background-color: rgb(231, 240, 248);
+    border: none;  
+    box-shadow: gray 1px 1px 8px;
+}
+
+.addbutton{
+    background-color: rgb(93, 89, 131);
+    border: none;
+    border-radius: 12px;
+    width: 250px;
+    height: 80px;
+    margin: 20px;
+    box-shadow: rgb(0, 0, 0) 1px 1px 8px;
+    color: #ffffff;
+}
+.addfine{
+    font-size: 2rem;
+}
+
+.recentfine{
+    border: none;
+    width: 450px;
+    height: 200px;
+}
+.table1{
+    
+    border-radius: 12px;
+    height: auto;
+    /* overflow-y: auto; */
+    box-shadow: gainsboro 2px 2px 4px;
+}
+.table2{
+    
+    border-radius: 12px;
+    height: auto;
+    /* overflow-y: auto; */
+    box-shadow: gainsboro 2px 2px 4px;
+}
+.received{
+    font-size: 1.5rem;
+    color: #948cb8;
+   margin: 60px 0px 0px 0px;
+}
+
+.receivedp{
+    font-size: 1.5rem;
+    color: #948cb8;
+    margin: 40px 0px 0px 0px;
+}
+
+
+.emerdiv{
+    margin: 20px;
+}
+.emercard-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.emercard{
+    font-family: 'Times New Roman', Times, serif;
+    color: #574b63;
+    font-size: 3rem;
+    box-shadow: #000000 1px 1px 1p;
+    font-weight: bold;
+    background-color: rgb(231, 240, 248);
+    border: none;  
+    box-shadow: gray 1px 1px 8px;
+}
+
+.hotlinesdiv{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.hotlinecard{
+    border: none;  
+    box-shadow: gray 1px 1px 8px;
+    color: #0564b3;
+    margin: 20px ;
+    background-color: #ffffff;
+   
+}
+
+.no{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.plc{
+    margin: 50px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: none;  
+    /* box-shadow: gray 1px 1px 8px; */
+    border-radius: 12px;
+    height: 250px;
+
+
+}
+.aboutplc{
+    
+    font-size: 1rem;
+    width: 800px;
+    height: 250px;
+
+}
+
+.styleend{
+    border: none;
+    height: 90px;
+}
+
+.fff{
+    border: #000000;
+    height: 300px;
+    font-size: 5rem;
+}
+
+.reset{
+    margin: 20px;
+}
