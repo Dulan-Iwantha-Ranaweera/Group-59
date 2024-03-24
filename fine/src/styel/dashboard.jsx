@@ -171,32 +171,7 @@ const Dashboard = () => {
     </Col>
 
 
-    {/* <Col xs={{flex: "100%"}}
-         sm={{flex: "100%"}}
-         md={{flex: "50%"}}
-         lg={{flex: "20%"}}>
-
-        <div className="input-outer">
-            <Form.Item label=''>
-                <Input type='text' variant='filled' placeholder='Street'/>
-            </Form.Item>
-        </div>
-
-    </Col> */}
-
-
-    {/* <Col xs={{flex: "100%"}}
-         sm={{flex: "100%"}}
-         md={{flex: "50%"}}
-         lg={{flex: "20%"}}>
-
-        <div className="input-outer">
-            <Form.Item label='City'>
-                <Input type='text' variant='filled' placeholder='City'/>
-            </Form.Item>
-        </div>
-
-    </Col> */}
+    
 
     <Col xs={{flex: "100%"}}
          sm={{flex: "100%"}}

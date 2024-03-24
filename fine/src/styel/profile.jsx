@@ -43,26 +43,7 @@ function Profile(){
             </div>
            
 
-            {/* <div className='nmID'>
-            <p> Officer ID No: 2456889 </p>
-         <p>Name with initials: A B C D Ekanayake</p>
-            </div> */}
-        
-{/* <div className='yrgen'> 
-        <p> Age: 45yr</p>
-        <p>Gender: Male</p>
-        </div> */}
-       
-{/* <div className='rankdev'>
-<p>Recent Officer Rank: Police Sergeant class 1</p>
-        <p> Devision: Homagama</p>
-</div> */}
-        
-{/* <div className='srvceadd'>
-<p>Main Service Area: Pitipana North, Homagama</p>
-        <p>Home Address: NO.26, High Level Rd, Pitipana</p>
-</div>
-         */}
+           
 
           </div>
 

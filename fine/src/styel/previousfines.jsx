@@ -1,13 +1,13 @@
 import '../styel/dashboard.css';
 import { Card,Table,Input } from 'antd';
-const { Search } = Input;
-// import {ButtonGroup} from "antd";
+
+
 import {AiTwotoneDelete} from "react-icons/ai";
 import {Button} from 'antd';
-// import { Divider } from 'antd';
+
+const { Search } = Input;
 
 
-// import addpic from '../assets/6.jpg.png'
 function Previousfines(){
 
     return(

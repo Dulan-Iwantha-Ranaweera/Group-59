@@ -12,13 +12,16 @@ import Profile from "./styel/profile";
 import Previous  from "./styel/previousfines";
 import Emergency from "./styel/emergencyreport";
 import About  from "./styel/aboutus";
-// import click from "./styel/addfine";
-import {  Badge } from 'antd'
+import Signup from "./styel/officersignup";
+
+import {  Badge } from 'antd';
+import Login from "./styel/officerlogin";
+
 
 
 
 const { Header, Sider, Content } = Layout;
-// const { Search } = Input;
+
 
 function Fine() {
   return (
@@ -27,9 +30,7 @@ function Fine() {
         <div className="brand">
           Fine<b><b>p</b></b>ay
         </div>
-        {/* <div className="search">
-          <Search placeholder="License Number" type="number"/>
-        </div>  */}
+        
       </Header>
 
       <Layout>
@@ -69,7 +70,9 @@ function Fine() {
             <Route path='/previous-fines' element={<Previous Fines/>}></Route>
             <Route path='/emergency-report' element={<Emergency Report/>}></Route>
             <Route path='/aboutus' element={<About Us/>}></Route>
-            {/* <Route path='/addfine' element={<Click here/>}></Route> */}
+            <Route path='/login' element={<Login/>}></Route>
+            <Route path='/signup' element={<Signup/>}></Route>
+           
 
 
           </Routes>
