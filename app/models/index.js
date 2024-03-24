@@ -1,0 +1,10 @@
+const dbConfig = require("../config/db.js");
+const mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+const db = {};
+db.mongoose = mongoose;
+db.url = dbConfig.url;
+db.drivers = require("./driver.model.js")(mongoose);
+db.fines = require("./fines.model.js")(mongoose);
+db.officer = require("./officer.model.js")(mongoose);
+module.exports = db;
